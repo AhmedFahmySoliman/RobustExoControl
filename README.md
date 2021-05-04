@@ -7,7 +7,6 @@ In this research, we aim for robust locomotion control of an underactuated biped
 
 This repository contains the necessary codes to regenerate figures, ANOVA tables, and Post-Hoc tables which are used to perform statistical analysis The data used to regenerate the results is obtained from a series of simulation experiments conducted via MSC.ADAMS and Simulink. The codes are written in MATLAB mfile syntax.
 
-![](Images\Fig11.png)
 
 <style type="text/css">
 
