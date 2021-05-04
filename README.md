@@ -7,18 +7,9 @@ In this research, we aim for robust locomotion control of an underactuated biped
 
 This repository contains the necessary codes to regenerate figures, ANOVA tables, and Post-Hoc tables which are used to perform statistical analysis The data used to regenerate the results is obtained from a series of simulation experiments conducted via MSC.ADAMS and Simulink. The codes are written in MATLAB mfile syntax.
 
-
-<style type="text/css">
-
-div.box{
-    text-align: center;
-}
-</style>
-
-<div class="box">
 ![Fig1](https://user-images.githubusercontent.com/82141384/116953596-579e5c00-ac96-11eb-9c7c-ed30a01e2024.png)
 <p> Fig. 1: Left: Self-balancing Lower body exoskeleton Co-Ex. Right: Its MSC.ADAMS simulation model.<p>
-</div>
+
 
 ### Figure 1
 The figure illustrates the results for a perturbation free walking motion with forward velocity of 0.3m/s. The plot shows mean±SD variation regions for 8 consecutive steps. Pink, green, and blue regions indicate the corresponding variations for ZIF, BAC, and CMC responses, respectively. Mean variations were denoted via solid lines accordingly. In this Figure, we plotted the ZMP variation
