@@ -32,8 +32,10 @@ The variation between the three controllers is depicted in this figure based on 
 * __Post-Hoc Table2__   used for pairwise comparison  between the three controllers for perturbed dynamic walking based on (_x<sub>zmp</sub><sup>pp</sup>_ , _y<sub>zmp</sub><sup>pp</sup>_ , _ω<sub>pitch</sub><sup>pp</sup>_) for each subject. Bonferroni method is used with adjusted significant level of 0.0167 per test (0.05/3).
 
 ## Recursive Algorithms
-The recursive algorithms section used to generate the Jacobian, Inertia, Coriolis centrifugal, and Gravitational matrices for Lower body exoskeleton Co-Ex with joint configuration shown in Fig. 2. 
+The recursive algorithms section used to generate the Jacobian, Inertia, Coriolis centrifugal, and Gravitational matrices for Co-Ex with joint configuration illustrated in Fig. 2. Each leg possesses 4 DoFs (Degrees of Freedom), namely, a 2 DoF hip joint along the A/A (Adduction/Abduction) and F/E (Flexion/Extension) axes, a 1 DoF knee joint along the F/E axis, and a 1 DoF ankle joint along the DP/F (Dorsi/Plantar Flexion) axis. The matrices are generated for an arbitrary posture and total locomotion mass of 139.73kg.
 
+<img src="https://user-images.githubusercontent.com/82141384/117294489-5c703500-ae7b-11eb-831a-3d51d3dc9922.png" alt="Fig_Readme" width="250"/>
+<p> Fig. 2: Joint configuration of the biped model.<p>
 
 ### Authors
 Contact us in case of any queries
