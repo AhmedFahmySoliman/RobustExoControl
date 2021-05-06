@@ -10,7 +10,8 @@ This repository contains the recursive algorithms that we used to compute Jacobi
 ![Fig1](https://user-images.githubusercontent.com/82141384/116953596-579e5c00-ac96-11eb-9c7c-ed30a01e2024.png)
 <p> Fig. 1: Left: Self-balancing Lower body exoskeleton Co-Ex. Right: Its MSC.ADAMS simulation model.<p>
 
-
+## Statistical Analysis
+The statistical analysis section used to generate the following items:
 ### Figure 1
 The figure illustrates the results for a perturbation free walking motion with forward velocity of 0.3m/s. The plot shows mean±SD variation regions for 8 consecutive steps. Pink, green, and blue regions indicate the corresponding variations for ZIF, BAC, and CMC responses, respectively. Mean variations were denoted via solid lines accordingly. In this Figure, we plotted the ZMP variation
 (_x<sub>zmp</sub>_, _y<sub>zmp</sub>_) and pitch axis angular velocity _ω_<sub>pitch</sub> for the three controllers in question. 
@@ -29,6 +30,10 @@ The variation between the three controllers is depicted in this figure based on 
 ### Post-Hoc Tables
 * __Post-Hoc Table1__ used for pairwise comparison  between the three controllers for perturbation free dynamic walking based on (_x<sub>zmp</sub><sup>pp</sup>_ , _y<sub>zmp</sub><sup>pp</sup>_ , _ω<sub>pitch</sub><sup>pp</sup>_) for each subject. Bonferroni method is used with adjusted significant level of 0.0167 per test (0.05/3).
 * __Post-Hoc Table2__   used for pairwise comparison  between the three controllers for perturbed dynamic walking based on (_x<sub>zmp</sub><sup>pp</sup>_ , _y<sub>zmp</sub><sup>pp</sup>_ , _ω<sub>pitch</sub><sup>pp</sup>_) for each subject. Bonferroni method is used with adjusted significant level of 0.0167 per test (0.05/3).
+
+## Recursive Algorithms
+The recursive algorithms section used to generate the Jacobian, Inertia, Coriolis centrifugal, and Gravitational matrices for Lower body exoskeleton Co-Ex with joint configuration shown in Fig. 2. 
+
 
 ### Authors
 Contact us in case of any queries
