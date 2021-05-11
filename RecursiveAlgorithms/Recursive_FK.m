@@ -1,7 +1,7 @@
 function [dJ_R, dJ_L, dJ_cog, dJ_B, J_R, J_L, J_cog, J_B, T_B, T_R, T_L, D,omega,omegab] = Recursive_FK(q_L,q_R,q_B,dQ)
 
 %% Load Physical Parameters
-% Robot Physical Parameters
+% Robot Physical Parameters for one single subject with total height of 195cm and weight of 85kg
 Lf = 22; La = 60; Ll = 430; Lth = 570; Lhf = 119; Lhl = 119; Lw = 276; 
 Lb = 270; Ltf = 115; Lsh = Ll;
 
